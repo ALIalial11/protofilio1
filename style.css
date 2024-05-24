@@ -1,0 +1,56 @@
+html{
+	height : 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background: #333;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header nav ul {
+  padding: 0;
+  list-style: none;
+}
+header nav ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.site-content{
+	flex:1;
+}
+footer {
+  height : 80 px ;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  line-height : 80 px ;
+}
+.portfolio-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
